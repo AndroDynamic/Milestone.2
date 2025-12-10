@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:id="@+id/homeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/rye"
+        android:text="Prep Proper"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:text="Start"
+        android:padding="16dp"
+        android:layout_height="76dp"
+        android:layout_width="match_parent"
+        android:backgroundTint="#896B10"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+       />
+</LinearLayout>

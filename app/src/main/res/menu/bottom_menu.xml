@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navPlanner"
+        android:title="Planner"
+        android:icon="@drawable/ic_calender" />
+
+    <item
+        android:id="@+id/navRecipes"
+        android:title="Recipes"
+        android:icon="@drawable/ic_recipebook" />
+
+    <item
+        android:id="@+id/groceryList"
+        android:title="Shopping List"
+        android:icon="@drawable/cart" />
+</menu>
