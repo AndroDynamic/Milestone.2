@@ -17,7 +17,8 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingBottom="40dp">
+        android:paddingBottom="40dp"
+        android:id="@+id/Monday">
 
         <!-- HEADER -->
         <TextView
@@ -25,7 +26,7 @@
             android:layout_height="70dp"
             android:background="#896B10"
             android:gravity="center"
-            android:text="Meal Planner"
+            android:text="@+string/Meal Planner"
             android:textSize="24sp"
             android:textColor="#FFFFFF"
             android:textStyle="bold"
@@ -38,7 +39,7 @@
             android:padding="16dp">
 
             <TextView
-                android:text="Monday"
+                android:text="@+string/Monday"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:layout_width="wrap_content"
@@ -57,46 +58,53 @@
 
                 <!-- Breakfast -->
                 <TextView
-                    android:text="Breakfast"
+                    android:text="@+string/Breakfast"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:hint="Enter meal" />
+                <GridLayout
+                    android:id="@+id/MondayBreakfastLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:rowCount="2" />
 
                 <!-- Lunch -->
                 <TextView
-                    android:text="Lunch"
+                    android:text="@+string/Lunch"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:hint="Enter meal" />
+                <GridLayout
+                    android:id="@+id/MondayLunchLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:rowCount="2" />
 
                 <!-- Dinner -->
                 <TextView
-                    android:text="Dinner"
+                    android:text="@+string/Dinner"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:hint="Enter meal" />
+                <GridLayout
+                    android:id="@+id/MondayDinnerLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:rowCount="2" />
 
             </LinearLayout>
+
         </LinearLayout>
 
 
@@ -105,10 +113,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
+            android:id="@+id/Tuesday"
             android:padding="16dp">
 
             <TextView
-                android:text="Tuesday"
+                android:text="@+string/Tuesday"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:layout_width="wrap_content"
@@ -125,43 +134,52 @@
                 android:layout_marginTop="10dp"
                 android:elevation="3dp">
 
+                <!-- Breakfast -->
                 <TextView
-                    android:text="Breakfast"
+                    android:text="@+string/Breakfast"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:hint="Enter meal" />
-
-                <TextView
-                    android:text="Lunch"
-                    android:textSize="16sp"
-                    android:textStyle="bold"
-                    android:layout_marginTop="10dp"
+                <GridLayout
+                    android:id="@+id/TuesdayBreakfastLayout"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:rowCount="2" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:hint="Enter meal" />
-
+                <!-- Lunch -->
                 <TextView
-                    android:text="Dinner"
+                    android:text="@+string/Lunch"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:hint="Enter meal" />
+                <GridLayout
+                    android:id="@+id/TuesdayLunchLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:rowCount="2" />
+
+                <!-- Dinner -->
+                <TextView
+                    android:text="@+string/Dinner"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <GridLayout
+                    android:id="@+id/TuesdayDinnerLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:rowCount="2" />
 
             </LinearLayout>
         </LinearLayout>
@@ -171,10 +189,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="16dp">
+            android:padding="16dp"
+            android:id="@+id/Wednesday">
 
             <TextView
-                android:text="Wednesday"
+                android:text="@+string/Wednesday"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:layout_width="wrap_content"
@@ -191,44 +210,53 @@
                 android:layout_marginTop="10dp"
                 android:elevation="3dp">
 
+                <!-- Breakfast -->
                 <TextView
-                    android:text="Breakfast"
+                    android:text="@+string/Breakfast"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:hint="Enter meal" />
+                <GridLayout
+                    android:id="@+id/WednesdayBreakfastLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:rowCount="2" />
 
+                <!-- Lunch -->
                 <TextView
-                    android:text="Lunch"
+                    android:text="@+string/Lunch"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:hint="Enter meal" />
+                <GridLayout
+                    android:id="@+id/WednesdayLunchLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:rowCount="2" />
 
+                <!-- Dinner -->
                 <TextView
-                    android:text="Dinner"
+                    android:text="@+string/Dinner"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:hint="Enter meal" />
+                <GridLayout
+                    android:id="@+id/WednesdayDinnerLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:rowCount="2" />
 
             </LinearLayout>
         </LinearLayout>
@@ -239,10 +267,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="16dp">
+            android:padding="16dp"
+            android:id="@+id/Thursday">
 
             <TextView
-                android:text="Thursday"
+                android:text="@+string/Thursday"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:layout_width="wrap_content"
@@ -259,43 +288,52 @@
                 android:layout_marginTop="10dp"
                 android:elevation="3dp">
 
+                <!-- Breakfast -->
                 <TextView
-                    android:text="Breakfast"
+                    android:text="@+string/Breakfast"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:hint="Enter meal" />
-
-                <TextView
-                    android:text="Lunch"
-                    android:textSize="16sp"
-                    android:textStyle="bold"
-                    android:layout_marginTop="10dp"
+                <GridLayout
+                    android:id="@+id/ThursdayBreakfastLayout"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:rowCount="2" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:hint="Enter meal" />
-
+                <!-- Lunch -->
                 <TextView
-                    android:text="Dinner"
+                    android:text="@+string/Lunch"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:hint="Enter meal" />
+                <GridLayout
+                    android:id="@+id/ThursdayLunchLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:rowCount="2" />
+
+                <!-- Dinner -->
+                <TextView
+                    android:text="@+string/Dinner"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <GridLayout
+                    android:id="@+id/ThursdayDinnerLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:rowCount="2" />
 
             </LinearLayout>
         </LinearLayout>
@@ -306,10 +344,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="16dp">
+            android:padding="16dp"
+            android:id="@+id/Friday">
 
             <TextView
-                android:text="Friday"
+                android:text="@+string/Friday"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:layout_width="wrap_content"
@@ -326,43 +365,52 @@
                 android:layout_marginTop="10dp"
                 android:elevation="3dp">
 
+                <!-- Breakfast -->
                 <TextView
-                    android:text="Breakfast"
+                    android:text="@+string/Breakfast"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:hint="Enter meal" />
-
-                <TextView
-                    android:text="Lunch"
-                    android:textSize="16sp"
-                    android:textStyle="bold"
-                    android:layout_marginTop="10dp"
+                <GridLayout
+                    android:id="@+id/FridayBreakfastLayout"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:rowCount="2" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:hint="Enter meal" />
-
+                <!-- Lunch -->
                 <TextView
-                    android:text="Dinner"
+                    android:text="@+string/Lunch"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:hint="Enter meal" />
+                <GridLayout
+                    android:id="@+id/FridayLunchLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:rowCount="2" />
+
+                <!-- Dinner -->
+                <TextView
+                    android:text="@+string/Dinner"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <GridLayout
+                    android:id="@+id/FridayDinnerLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:rowCount="2" />
 
             </LinearLayout>
         </LinearLayout>
@@ -373,10 +421,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="16dp">
+            android:padding="16dp"
+            android:id="@+id/Saturday">
 
             <TextView
-                android:text="Saturday"
+                android:text="@+string/Saturday"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:layout_width="wrap_content"
@@ -393,43 +442,52 @@
                 android:layout_marginTop="10dp"
                 android:elevation="3dp">
 
+                <!-- Breakfast -->
                 <TextView
-                    android:text="Breakfast"
+                    android:text="@+string/Breakfast"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:hint="Enter meal" />
-
-                <TextView
-                    android:text="Lunch"
-                    android:textSize="16sp"
-                    android:textStyle="bold"
-                    android:layout_marginTop="10dp"
+                <GridLayout
+                    android:id="@+id/SaturdayBreakfastLayout"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:rowCount="2" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:hint="Enter meal" />
-
+                <!-- Lunch -->
                 <TextView
-                    android:text="Dinner"
+                    android:text="@+string/Lunch"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:hint="Enter meal" />
+                <GridLayout
+                    android:id="@+id/SaturdayLunchLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:rowCount="2" />
+
+                <!-- Dinner -->
+                <TextView
+                    android:text="@+string/Dinner"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <GridLayout
+                    android:id="@+id/SaturdayDinnerLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:rowCount="2" />
 
             </LinearLayout>
         </LinearLayout>
@@ -440,10 +498,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="16dp">
+            android:padding="16dp"
+            android:id="@+id/Sunday">
 
             <TextView
-                android:text="Sunday"
+                android:text="@+string/Sunday"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:layout_width="wrap_content"
@@ -460,43 +519,52 @@
                 android:layout_marginTop="10dp"
                 android:elevation="3dp">
 
+                <!-- Breakfast -->
                 <TextView
-                    android:text="Breakfast"
+                    android:text="@+string/Breakfast"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:hint="Enter meal" />
-
-                <TextView
-                    android:text="Lunch"
-                    android:textSize="16sp"
-                    android:textStyle="bold"
-                    android:layout_marginTop="10dp"
+                <GridLayout
+                    android:id="@+id/SundayBreakfastLayout"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:rowCount="2" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:hint="Enter meal" />
-
+                <!-- Lunch -->
                 <TextView
-                    android:text="Dinner"
+                    android:text="@+string/Lunch"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:hint="Enter meal" />
+                <GridLayout
+                    android:id="@+id/SundayLunchLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:rowCount="2" />
+
+                <!-- Dinner -->
+                <TextView
+                    android:text="@+string/Dinner"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <GridLayout
+                    android:id="@+id/SundayDinnerLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:rowCount="2" />
 
             </LinearLayout>
         </LinearLayout>

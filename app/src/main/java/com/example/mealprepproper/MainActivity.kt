@@ -17,7 +17,6 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-
         val scrollView = findViewById<ScrollView>(R.id.scrollView)
         ViewCompat.setOnApplyWindowInsetsListener(scrollView) { view, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
