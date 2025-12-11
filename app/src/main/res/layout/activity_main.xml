@@ -65,12 +65,22 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <GridLayout
-                    android:id="@+id/MondayBreakfastLayout"
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:columnCount="3"
-                    android:rowCount="2" />
+                    android:fontFamily="@font/vastshadow"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:id="@+id/MondayBreakfastCal"
+                    android:text="0kcal"/>
+
+                <EditText
+                    android:id="@+id/MondayBreakfastInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="3"
+                    android:inputType="text"
+                    android:hint="Enter your breakfast meal here." />
 
                 <!-- Lunch -->
                 <TextView
@@ -81,12 +91,22 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <GridLayout
-                    android:id="@+id/MondayLunchLayout"
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:columnCount="3"
-                    android:rowCount="2" />
+                    android:fontFamily="@font/vastshadow"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:id="@+id/MondayLunchCal"
+                    android:text="0kcal"/>
+
+                <EditText
+                    android:id="@+id/MondayLunchInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:hint="Enter your lunch meal here." />
 
                 <!-- Dinner -->
                 <TextView
@@ -97,12 +117,22 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <GridLayout
-                    android:id="@+id/MondayDinnerLayout"
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:columnCount="3"
-                    android:rowCount="2" />
+                    android:fontFamily="@font/vastshadow"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:id="@+id/MondayDinnerCal"
+                    android:text="0kcal"/>
+
+                <EditText
+                    android:id="@+id/MondayDinnerInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:hint="Enter your dinner meal here." />
 
             </LinearLayout>
 
@@ -143,6 +173,23 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/vastshadow"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:id="@+id/TuesdayBreakfastCal"
+                    android:text="0kcal"/>
+
+                <EditText
+                    android:id="@+id/TuesdayBreakfastInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:hint="Enter your breakfast meal here." />
+
                 <GridLayout
                     android:id="@+id/TuesdayBreakfastLayout"
                     android:layout_width="wrap_content"
@@ -158,6 +205,23 @@
                     android:layout_marginTop="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/vastshadow"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:id="@+id/TuesdayLunchCal"
+                    android:text="0kcal"/>
+
+                <EditText
+                    android:id="@+id/TuesdayLunchInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:hint="Enter your lunch meal here." />
 
                 <GridLayout
                     android:id="@+id/TuesdayLunchLayout"
@@ -175,12 +239,22 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <GridLayout
-                    android:id="@+id/TuesdayDinnerLayout"
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:columnCount="3"
-                    android:rowCount="2" />
+                    android:fontFamily="@font/vastshadow"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:id="@+id/TuesdayDinnerCal"
+                    android:text="0kcal"/>
+
+                <EditText
+                    android:id="@+id/TuesdayDinnerInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:hint="Enter your dinner meal here." />
 
             </LinearLayout>
         </LinearLayout>
@@ -220,12 +294,22 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <GridLayout
-                    android:id="@+id/WednesdayBreakfastLayout"
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:columnCount="3"
-                    android:rowCount="2" />
+                    android:fontFamily="@font/vastshadow"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:id="@+id/WednesdayBreakfastCal"
+                    android:text="0kcal"/>
+
+                <EditText
+                    android:id="@+id/WednesdayBreakfastInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:hint="Enter your breakfast meal here." />
 
                 <!-- Lunch -->
                 <TextView
@@ -236,12 +320,22 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <GridLayout
-                    android:id="@+id/WednesdayLunchLayout"
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:columnCount="3"
-                    android:rowCount="2" />
+                    android:fontFamily="@font/vastshadow"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:id="@+id/WednesdayLunchCal"
+                    android:text="0kcal"/>
+
+                <EditText
+                    android:id="@+id/WednesdayLunchInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:hint="Enter your lunch meal here." />
 
                 <!-- Dinner -->
                 <TextView
@@ -252,12 +346,22 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <GridLayout
-                    android:id="@+id/WednesdayDinnerLayout"
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:columnCount="3"
-                    android:rowCount="2" />
+                    android:fontFamily="@font/vastshadow"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:id="@+id/WednesdayDinnerCal"
+                    android:text="0kcal"/>
+
+                <EditText
+                    android:id="@+id/WednesdayDinnerInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:hint="Enter your dinner meal here." />
 
             </LinearLayout>
         </LinearLayout>
@@ -297,12 +401,22 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <GridLayout
-                    android:id="@+id/ThursdayBreakfastLayout"
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:columnCount="3"
-                    android:rowCount="2" />
+                    android:fontFamily="@font/vastshadow"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:id="@+id/ThursdayBreakfastCal"
+                    android:text="0kcal"/>
+
+                <EditText
+                    android:id="@+id/ThursdayBreakfastInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:hint="Enter your breakfast meal here." />
 
                 <!-- Lunch -->
                 <TextView
@@ -313,12 +427,22 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <GridLayout
-                    android:id="@+id/ThursdayLunchLayout"
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:columnCount="3"
-                    android:rowCount="2" />
+                    android:fontFamily="@font/vastshadow"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:id="@+id/ThursdayLunchCal"
+                    android:text="0kcal"/>
+
+                <EditText
+                    android:id="@+id/ThursdayLunchInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:hint="Enter your lunch meal here." />
 
                 <!-- Dinner -->
                 <TextView
@@ -329,17 +453,25 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <GridLayout
-                    android:id="@+id/ThursdayDinnerLayout"
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:columnCount="3"
-                    android:rowCount="2" />
+                    android:fontFamily="@font/vastshadow"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:id="@+id/ThursdayDinnerCal"
+                    android:text="0kcal"/>
+
+                <EditText
+                    android:id="@+id/ThrusdayDinnerInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:hint="Enter your dinner meal here." />
 
             </LinearLayout>
         </LinearLayout>
-
-
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -374,12 +506,22 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <GridLayout
-                    android:id="@+id/FridayBreakfastLayout"
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:columnCount="3"
-                    android:rowCount="2" />
+                    android:fontFamily="@font/vastshadow"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:id="@+id/FridayBreakfastCal"
+                    android:text="0kcal"/>
+
+                <EditText
+                    android:id="@+id/FridayBreakfastInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:hint="Enter your breakfast meal here." />
 
                 <!-- Lunch -->
                 <TextView
@@ -390,12 +532,22 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <GridLayout
-                    android:id="@+id/FridayLunchLayout"
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:columnCount="3"
-                    android:rowCount="2" />
+                    android:fontFamily="@font/vastshadow"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:id="@+id/FridayLunchCal"
+                    android:text="0kcal"/>
+
+                <EditText
+                    android:id="@+id/FridayLunchInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:hint="Enter your lunch meal here." />
 
                 <!-- Dinner -->
                 <TextView
@@ -406,12 +558,22 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <GridLayout
-                    android:id="@+id/FridayDinnerLayout"
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:columnCount="3"
-                    android:rowCount="2" />
+                    android:fontFamily="@font/vastshadow"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:id="@+id/FridayDinnerCal"
+                    android:text="0kcal"/>
+
+                <EditText
+                    android:id="@+id/FridayDinnerInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:hint="Enter your dinner meal here." />
 
             </LinearLayout>
         </LinearLayout>
@@ -451,12 +613,22 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <GridLayout
-                    android:id="@+id/SaturdayBreakfastLayout"
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:columnCount="3"
-                    android:rowCount="2" />
+                    android:fontFamily="@font/vastshadow"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:id="@+id/SaturdayBreakfastCal"
+                    android:text="0kcal"/>
+
+                <EditText
+                    android:id="@+id/SaturdayBreakfastInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:hint="Enter your breakfast meal here." />
 
                 <!-- Lunch -->
                 <TextView
@@ -467,12 +639,22 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <GridLayout
-                    android:id="@+id/SaturdayLunchLayout"
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:columnCount="3"
-                    android:rowCount="2" />
+                    android:fontFamily="@font/vastshadow"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:id="@+id/SaturdayLunchCal"
+                    android:text="0kcal"/>
+
+                <EditText
+                    android:id="@+id/SaturdayLunchInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:hint="Enter your breakfast meal here." />
 
                 <!-- Dinner -->
                 <TextView
@@ -483,12 +665,22 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <GridLayout
-                    android:id="@+id/SaturdayDinnerLayout"
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:columnCount="3"
-                    android:rowCount="2" />
+                    android:fontFamily="@font/vastshadow"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:id="@+id/SaturdayDinnerCal"
+                    android:text="0kcal"/>
+
+                <EditText
+                    android:id="@+id/SaturdayDinnerInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:hint="Enter your dinner meal here." />
 
             </LinearLayout>
         </LinearLayout>
@@ -528,12 +720,22 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <GridLayout
-                    android:id="@+id/SundayBreakfastLayout"
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:columnCount="3"
-                    android:rowCount="2" />
+                    android:fontFamily="@font/vastshadow"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:id="@+id/SundayBreakfastCal"
+                    android:text="0kcal"/>
+
+                <EditText
+                    android:id="@+id/SundayBreakfastInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:hint="Enter your breakfast meal here." />
 
                 <!-- Lunch -->
                 <TextView
@@ -544,12 +746,22 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <GridLayout
-                    android:id="@+id/SundayLunchLayout"
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:columnCount="3"
-                    android:rowCount="2" />
+                    android:fontFamily="@font/vastshadow"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:id="@+id/SundayLunchCal"
+                    android:text="0kcal"/>
+
+                <EditText
+                    android:id="@+id/SundayLunchInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:hint="Enter your lunch meal here." />
 
                 <!-- Dinner -->
                 <TextView
@@ -561,12 +773,22 @@
                     android:textStyle="bold"
                     tools:ignore="HardcodedText" />
 
-                <GridLayout
-                    android:id="@+id/SundayDinnerLayout"
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:columnCount="3"
-                    android:rowCount="2" />
+                    android:fontFamily="@font/vastshadow"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:id="@+id/SundayDinnerCal"
+                    android:text="0kcal"/>
+
+                <EditText
+                    android:id="@+id/SundayDinnerInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:hint="Enter your dinner meal here." />
 
             </LinearLayout>
         </LinearLayout>
