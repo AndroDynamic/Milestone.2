@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
                             totalCalories += response.items[i].calories
                         }
 
-                        calorieLabel.text = "$totalCalories kcal"
+                        calorieLabel.text = "${totalCalories}kcal"
                     }
                 } catch (e: Exception) {
                     Log.e("RecipeSearchActivity", "API call failed with error: ${e.message}", e)
