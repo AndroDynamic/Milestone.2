@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -26,7 +27,7 @@
             android:layout_height="70dp"
             android:background="#896B10"
             android:gravity="center"
-            android:text="@+string/Meal Planner"
+            android:text="Meal Planner"
             android:textSize="24sp"
             android:textColor="#FFFFFF"
             android:textStyle="bold"
@@ -39,7 +40,7 @@
             android:padding="16dp">
 
             <TextView
-                android:text="@+string/Monday"
+                android:text="Monday"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:layout_width="wrap_content"
@@ -58,7 +59,7 @@
 
                 <!-- Breakfast -->
                 <TextView
-                    android:text="@+string/Breakfast"
+                    android:text="Breakfast"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
@@ -73,7 +74,7 @@
 
                 <!-- Lunch -->
                 <TextView
-                    android:text="@+string/Lunch"
+                    android:text="Lunch"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
@@ -89,7 +90,7 @@
 
                 <!-- Dinner -->
                 <TextView
-                    android:text="@+string/Dinner"
+                    android:text="Dinner"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
@@ -117,7 +118,7 @@
             android:padding="16dp">
 
             <TextView
-                android:text="@+string/Tuesday"
+                android:text="Tuesday"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:layout_width="wrap_content"
@@ -136,7 +137,7 @@
 
                 <!-- Breakfast -->
                 <TextView
-                    android:text="@+string/Breakfast"
+                    android:text="Breakfast"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
@@ -151,7 +152,7 @@
 
                 <!-- Lunch -->
                 <TextView
-                    android:text="@+string/Lunch"
+                    android:text="Lunch"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
@@ -167,7 +168,7 @@
 
                 <!-- Dinner -->
                 <TextView
-                    android:text="@+string/Dinner"
+                    android:text="Dinner"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
@@ -193,7 +194,7 @@
             android:id="@+id/Wednesday">
 
             <TextView
-                android:text="@+string/Wednesday"
+                android:text="Wednesday"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:layout_width="wrap_content"
@@ -212,7 +213,7 @@
 
                 <!-- Breakfast -->
                 <TextView
-                    android:text="@+string/Breakfast"
+                    android:text="Breakfast"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
@@ -228,7 +229,7 @@
 
                 <!-- Lunch -->
                 <TextView
-                    android:text="@+string/Lunch"
+                    android:text="Lunch"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
@@ -244,7 +245,7 @@
 
                 <!-- Dinner -->
                 <TextView
-                    android:text="@+string/Dinner"
+                    android:text="Dinner"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
@@ -271,7 +272,7 @@
             android:id="@+id/Thursday">
 
             <TextView
-                android:text="@+string/Thursday"
+                android:text="Thursday"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:layout_width="wrap_content"
@@ -290,7 +291,7 @@
 
                 <!-- Breakfast -->
                 <TextView
-                    android:text="@+string/Breakfast"
+                    android:text="Breakfast"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
@@ -305,7 +306,7 @@
 
                 <!-- Lunch -->
                 <TextView
-                    android:text="@+string/Lunch"
+                    android:text="Lunch"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
@@ -321,7 +322,7 @@
 
                 <!-- Dinner -->
                 <TextView
-                    android:text="@+string/Dinner"
+                    android:text="Dinner"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
@@ -348,7 +349,7 @@
             android:id="@+id/Friday">
 
             <TextView
-                android:text="@+string/Friday"
+                android:text="Friday"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:layout_width="wrap_content"
@@ -367,7 +368,7 @@
 
                 <!-- Breakfast -->
                 <TextView
-                    android:text="@+string/Breakfast"
+                    android:text="Breakfast"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
@@ -382,7 +383,7 @@
 
                 <!-- Lunch -->
                 <TextView
-                    android:text="@+string/Lunch"
+                    android:text="Lunch"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
@@ -398,7 +399,7 @@
 
                 <!-- Dinner -->
                 <TextView
-                    android:text="@+string/Dinner"
+                    android:text="Dinner"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
@@ -425,7 +426,7 @@
             android:id="@+id/Saturday">
 
             <TextView
-                android:text="@+string/Saturday"
+                android:text="Saturday"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:layout_width="wrap_content"
@@ -444,7 +445,7 @@
 
                 <!-- Breakfast -->
                 <TextView
-                    android:text="@+string/Breakfast"
+                    android:text="Breakfast"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
@@ -459,7 +460,7 @@
 
                 <!-- Lunch -->
                 <TextView
-                    android:text="@+string/Lunch"
+                    android:text="Lunch"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
@@ -475,7 +476,7 @@
 
                 <!-- Dinner -->
                 <TextView
-                    android:text="@+string/Dinner"
+                    android:text="Dinner"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
@@ -502,7 +503,7 @@
             android:id="@+id/Sunday">
 
             <TextView
-                android:text="@+string/Sunday"
+                android:text="Sunday"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:layout_width="wrap_content"
@@ -521,7 +522,7 @@
 
                 <!-- Breakfast -->
                 <TextView
-                    android:text="@+string/Breakfast"
+                    android:text="Breakfast"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
@@ -536,7 +537,7 @@
 
                 <!-- Lunch -->
                 <TextView
-                    android:text="@+string/Lunch"
+                    android:text="Lunch"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
@@ -552,12 +553,13 @@
 
                 <!-- Dinner -->
                 <TextView
-                    android:text="@+string/Dinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Dinner"
                     android:textSize="16sp"
                     android:textStyle="bold"
-                    android:layout_marginTop="10dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    tools:ignore="HardcodedText" />
 
                 <GridLayout
                     android:id="@+id/SundayDinnerLayout"
