@@ -38,10 +38,10 @@ The following EXTRA features are implemented:
 ## 🎥 Demo Video
 
 Here's a video that demos all of the app's implemented features:
+[
+](https://youtube.com/shorts/2w_obmdjjgg)
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
-
-VIDEO created with **your chosen video tool**
+VIDEO created with QuickTime Player
 
 ## Notes
 
